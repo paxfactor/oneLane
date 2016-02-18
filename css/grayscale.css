@@ -147,12 +147,12 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/onelane_header3.jpg) no-repeat bottom center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
 }
 
 .intro .intro-body {
@@ -259,6 +259,18 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+}
+
+.main-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/OneLaneBridgeLogo.jpg) no-repeat center center fixed;
+    background-color: #000;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
 }
 
 .download-section {
