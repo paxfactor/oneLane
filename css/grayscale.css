@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #cc0001;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #CC6500;
 }
 
 .light {
@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/onelane_header3.jpg) no-repeat bottom center scroll;
+    background: url(../img/onelane_header3.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -157,7 +157,8 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
+    padding-bottom: 30px;
 }
 
 .intro .intro-body .brand-heading {
@@ -273,16 +274,12 @@ a:focus {
     -o-background-size: 100%;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+.nice-box {
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    padding: 10px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #map {
@@ -353,11 +350,19 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer p {
     margin: 0;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 ::-moz-selection {
