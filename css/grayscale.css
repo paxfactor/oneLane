@@ -288,6 +288,29 @@ a:focus {
     margin-top: 100px;
 }
 
+.panel-primary {
+    border-color: #cc0001;
+}
+
+.panel-primary > .panel-heading {
+    color: #FFF;
+    background-color: #000;
+    border-color: #cc0001;
+}
+
+.panel-body {
+    color: #000;
+}
+
+.panel-body > p {
+    font-size: 16px;
+}
+
+.list-group-item-info {
+    color: #fff;
+    background-color: #000;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
